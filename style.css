@@ -1,0 +1,22 @@
+.header {
+	background: url('/showcase.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/* height: 80vh; */
+}
+
+.hero {
+	height: 80vh;
+	padding-top: 200px;
+}
+
+.btn-outline-light {
+	width: 25%;
+}
+
+@media (max-width: 768px) {
+	.btn-outline-light {
+		width: 100%;
+	}
+}
